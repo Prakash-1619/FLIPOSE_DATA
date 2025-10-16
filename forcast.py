@@ -19,7 +19,7 @@ def load_data(file_path):
     return df
 
 # The exact file name from the upload
-FILE_NAME = "PProphet_All_Areas_Forecast.xlsx"
+FILE_NAME = "Prophet_All_Areas_Forecast.xlsx"
 df = load_data(FILE_NAME)
 
 if not df.empty:
